@@ -2,6 +2,7 @@ import boto3
 import json
 import pymysql
 import datetime
+import os
 
 def lambda_handler(event, context):
     
